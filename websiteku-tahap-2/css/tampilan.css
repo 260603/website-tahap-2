@@ -1,0 +1,289 @@
+body
+{
+background-image: url('../image/bg.png');
+background-color: #c53d3d64;
+
+}
+
+
+nav {
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgba(128, 130, 161, 0.807);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    }
+    nav a {
+    text-decoration: none;
+    position: relative;
+    }
+    nav a:hover {
+    color: rgb(174, 154, 154);
+    transition-duration: 2s;
+    }
+
+
+   footer
+{
+clear: both;
+background-color: rgb(22, 21, 21);
+color: white;
+padding: 12px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+
+
+header {
+    background-color: rgba(142, 120, 179, 0.3);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(135deg, rgba(139, 118, 172, 0.3), rgba(160, 170, 179, 0.7));
+    background-size: cover;
+    backdrop-filter: blur(0,5px);
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-size: 45px;
+    color: rgb(1, 12, 22);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  header p {
+    font-size: 24px;
+    color: rgb(33, 30, 26);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  header img {
+    border: 3px solid rgb(72, 74, 79);
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  header img:hover {
+    transform: scale(1.05);
+  }
+  
+h1, 
+h2 {
+    color: rgba(2, 7, 13, 0.803);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.tombol
+{
+display: block;
+text-decoration: none;
+padding: 10px;
+width: 120px;
+color: rgb(17, 13, 7);
+background-color: crimson;
+border-radius: 5px;
+text-align: center;
+cursor:pointer;
+}
+.tombol:hover
+{
+
+background-color: rgb(0, 0, 0);
+transition-duration: 2s;
+}
+
+
+/* LATAR BELAKANG */
+body {
+background-image: url('../image/bg.png');
+background-color: #cccccc;
+}
+/* NAVBAR */
+nav {
+margin: 0;
+padding: 10px;
+overflow: hidden;
+background-color: darkorange;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: bold;
+}
+nav a {
+text-decoration: none;
+position: relative;
+
+}
+nav a:hover {
+color: white;
+transition-duration: 2s;
+}
+/* FOOTER */
+footer {
+clear: both;
+background-color: rgb(22, 21, 21);
+color: white;
+padding: 12px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+/* HEADER */
+header {
+background-color: rgb(98, 0, 255, 0.3);
+color: white;
+padding: 20px;
+text-align: center;
+}
+header h1 {
+margin-bottom: 7px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 35px;
+color: rgb(183, 218, 252);
+}
+header p {
+font-size: 24px;
+color: rgb(255, 137, 3);
+}
+header img {
+border: 2px solid white;
+border-radius: 50%;
+}
+/* HEADING */
+h1,
+
+h2 {
+color: rgb(183, 219, 252);
+font-family: Arial, Helvetica, sans-serif;
+}
+/* TOMBOL */
+.tombol {
+display: block;
+text-decoration: none;
+padding: 10px;
+width: 120px;
+color: rgb(255, 255, 255);
+background-color: rgb(20, 220, 43);
+border-radius: 5px;
+text-align: center;
+cursor: pointer;
+}
+.tombol:hover {
+background-color: rgb(103, 28, 122);
+transition-duration: 2s;
+}
+
+
+/*---- BAGIAN 2 ---*/
+.badan-utama {
+max-width: 80%;
+margin: 20px auto;
+background-color: rgba(49, 173, 201, 0.529);
+padding: 30px;
+overflow: hidden;
+}
+
+
+.kolom-kecil {
+width: 20%;
+}
+.kolom-sedang {
+width: 57%;
+}
+.kolom-besar {
+width: 77%;
+}
+.kolom-kecil,
+.kolom-sedang,
+.kolom-besar {
+float: left;
+margin-right: 10px;
+margin-bottom: 15px;
+}
+
+
+/* KOTAK */
+.kotak {
+border: 1px solid gainsboro;
+padding: 10px;
+margin-bottom: 15px;
+}
+.kotak h3 {
+background-color: darkorange;
+color: white;
+text-align: center;
+padding: 10px;
+margin-bottom: 13px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: bold;
+}
+.kotak img {
+display: block;
+width: 100%;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+.kotak p {
+margin-bottom: 10px;
+font-size: 20px;
+font-family: Bradley hand ITC;
+font-weight:bold ;
+color: white;
+
+}
+
+
+.kolom-kecil ul a {
+text-decoration: none;
+position: relative;
+color: rgb(255, 255, 255);
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: bold;
+}
+.kolom-kecil ul a:hover {
+color: darkorange;
+transition-duration: 2s;
+}
+
+
+.profil {
+background-color: rgba(10, 182, 39, 0.3);
+color: white;
+padding: 20px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: bold;
+}
+
+.profil h3 {
+background-color: rgb(0, 182, 39);
+color: white;
+text-align: center;
+padding: 7px;
+margin-bottom: 13px;
+border-radius: 5px;
+}
+.profil img {
+border: 2px solid white;
+border-radius: 5px;
+margin-bottom: 15px;
+}
+
+
+.banner {
+margin-bottom: 15px;
+}
+.banner img {
+display: block;
+width: 100%;
+height: 200px;
+}
+
